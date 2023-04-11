@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- escuadra.html -->
+
+<canvas width="1000" height="1000"></canvas>
+
+<script>
+
+    var pantalla = document.querySelector("canvas");
+    var pincel = pantalla.getContext("2d");
+    pincel.fillStyle = 'black';
+    pincel.beginPath();
+    pincel.moveTo(50, 50);
+    pincel.lineTo(50, 400);
+    pincel.lineTo(400, 400);
+    pincel.fill();
+
+    pincel.fillStyle = 'white';
+    pincel.beginPath();
+    pincel.moveTo(100, 175);
+    pincel.lineTo(100, 350);
+    pincel.lineTo(275, 350);
+    pincel.fill();
+
+
+    pincel.fillStyle = 'red';
+    pincel.beginPath();
+    pincel.moveTo(750, 450);
+    pincel.lineTo(750, 550);
+    pincel.lineTo(600, 450);
+    pincel.fill();
+
+</script>
