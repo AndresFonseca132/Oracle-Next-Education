@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+
+/* Path: index.css */
+body {
+	font-family: "Nunito Sans", sans-serif;
+	background-color: #ffff;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+	font-size: 3rem;
+	color: #333;
+	text-align: center;
+	margin: 1rem 0rem;
+	color: #ffff;
+	background-color: #696969;
+}
+
+h2 {
+	font-size: 30px;
+	color: #333;
+	margin: 30px 0px;
+	color: #ffff;
+	width: 350px;
+	background-color: #696969;
+	border-radius: 10px;
+}
+
+p {
+	font-size: 17px;
+	line-height: 100%;
+	color: #696969;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+#banner {
+	width: 40%;
+	height: auto;
+}
+
+.items {
+	font-style: italic;
+	font-size: 20px;
+}
+
+.info {
+	background-color: whitesmoke;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	text-align: center;
+}
+.diferencias {
+	background-color: #ffff;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	text-align: center;
+}
+.diferencias p {
+	text-align: left;
+}
+.diferencias ul li {
+	text-align: left;
+}
+.diferencias ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+.diferencias h2 {
+	text-align: center;
+}
+.diferencias img {
+	width: 35%;
+	height: auto;
+}
